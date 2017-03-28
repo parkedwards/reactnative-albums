@@ -1,1 +1,3 @@
-# Album Viewer in React Native
+# Mobile Album Viewer
+
+Built with React Native
