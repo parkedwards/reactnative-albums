@@ -1,0 +1,25 @@
+// Index.ios.js - place code in here for IOS
+
+// Import a library to help create a component
+import React from 'react';
+import {
+  AppRegistry,
+  View
+} from 'react-native';
+
+// Import children components
+import {
+  Header,
+  AlbumList
+} from './src/components';
+
+// Create a component
+const App = () => (
+  <View style={{ flex: 1 }}>
+    <Header type={'Albums'} />
+    <AlbumList />
+  </View>
+);
+
+// Render it to the device
+AppRegistry.registerComponent('albums', () => App);
